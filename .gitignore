@@ -1,0 +1,16 @@
+# Progetto Vivado generato da build_project.tcl
+vivado/
+
+# File di lavoro Vivado / xsim
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+xsim.dir/
+webtalk*
+NA/
+
+# Python
+__pycache__/
