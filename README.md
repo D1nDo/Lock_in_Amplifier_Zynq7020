@@ -37,6 +37,14 @@ ADC B ─► demodulatore (Σ semiperiodo 1 − Σ semiperiodo 2) ─► CIC R=8
 
 In entrambi i design il frame DMA è di 68000 campioni (`TLAST`).
 
+### Risposta dei filtri
+
+Generate da `docs/plot_filters.py` (i coefficienti FIR sono letti da `rtl/`).
+
+![CIC](docs/cic_response.png)
+
+![FIR](docs/fir_response.png)
+
 ## Struttura
 
 ```
@@ -45,6 +53,7 @@ bd/       block design esportati con write_bd_tcl
 constr/   vincoli Red Pitaya (pin e clock)
 mem/      LUT del seno + gen_lut.py per rigenerarle
 sim/      testbench
+docs/     grafici della risposta dei filtri + script per rigenerarli
 build_project.tcl   crea il progetto Vivado in vivado/
 export_bd.tcl       riesporta i block design in bd/ dopo una modifica
 ```
