@@ -2,7 +2,7 @@
 // semiperiodo e in uscita fornisce (somma primo semiperiodo - somma secondo semiperiodo),
 // una volta per periodo.
 // - DUTY_CYCLE  : campioni per semiperiodo (deve coincidere con HIGH/LOW_CYCLES di Axis_Square_Wave)
-// - PHASE_DELAY : ritardo DAC -> fibra -> ADC in campioni (0 <= PHASE_DELAY < 2*DUTY_CYCLE),
+// - PHASE_DELAY : ritardo DAC -> sistema esterno -> ADC in campioni (0 <= PHASE_DELAY < 2*DUTY_CYCLE),
 //                 allinea i semiperiodi demodulati a quelli effettivamente ricevuti
 // - BLANK       : campioni scartati dopo ogni fronte per escludere i transitori (0 <= BLANK < DUTY_CYCLE)
 // Uscita a OUT_DATA_WIDTH bit: con i default (16 bit, 312 campioni) la differenza occupa

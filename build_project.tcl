@@ -1,6 +1,6 @@
 # Ricrea il progetto Vivado da zero a partire dai sorgenti di questa cartella.
 # Uso dalla Tcl console di Vivado:
-#   cd C:/Users/MNS/Desktop/FPGA_FOG_open_loop_200KHz_src
+#   cd <percorso del repository>
 #   source build_project.tcl
 #
 # Struttura:

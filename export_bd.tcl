@@ -2,7 +2,7 @@
 # Da lanciare dopo aver modificato i BD nel progetto generato da build_project.tcl,
 # così le modifiche finiscono nel repository (la cartella vivado/ non è versionata).
 # Uso dalla Tcl console di Vivado, con il progetto aperto:
-#   source C:/Users/MNS/Desktop/FPGA_FOG_open_loop_200KHz_src/export_bd.tcl
+#   source <percorso del repository>/export_bd.tcl
 
 set root [file dirname [file normalize [info script]]]
 file mkdir $root/bd
